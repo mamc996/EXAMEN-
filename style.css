@@ -1,0 +1,19 @@
+section .col {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#mensaje {
+    font-size: 18px;
+    font-style: italic;
+}
+
+#mensaje span {
+    font-size: 30px;
+}
+
+#carouselExampleIndicators img {
+    width: 100px;
+    height: 20em;
+}
