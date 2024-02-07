@@ -1,3 +1,56 @@
+/* Estilos para el encabezado - adrian guzman*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.bg-blue {
+    background-color: #007bff;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-container {
+    width: 80px; 
+    height: 60px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden; 
+    
+}
+
+.logo2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 10px;
+    width: 100%; 
+    height: auto; 
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+/*section mark martinez*/
 section .col-md-6 {
     display: flex;
     align-items: center;
@@ -16,4 +69,60 @@ section .col-md-6 {
 #carouselExampleIndicators img {
     width: 100px;
     height: 20em;
+}
+/*section*/
+
+
+/*jose sandoval - footer*/
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu_footer li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu_footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: font-size 0.3s
+}
+
+.menu_footer a:hover {
+    color: yellow;
+    font-size: 18px
+}
+.logo_footer img {
+    max-width: 150px;
+    height: auto;  
+}
+
+.redes-sociales a {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.redes-sociales img {
+    width: 50px; 
+    height: auto;
+    transition: width 0.3s, height 0.3s
+}
+
+.redes-sociales img:hover {
+    width: 70px;
+    height: 70px;
 }
